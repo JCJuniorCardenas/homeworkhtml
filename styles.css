@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+header{
+    background-color: red;
+    color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header h1{
+    margin-left: 20px;
+}
+header nav ul li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.sobreMi{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.sobreMi h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobreMi p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.sobreMi img{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.misHobbies{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.misHobbies h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.misHobbies ul{
+    list-style: none;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.misHobbies ul li{
+    margin-bottom: 10px;
+    gap: 100px;
+}
+
+.pasosParaAprender{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.pasosParaAprender h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pasosParaAprender ol{
+    list-style: none;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+.pasosParaAprender ol li{
+    margin-bottom: 10px;
+    gap: 100px;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
